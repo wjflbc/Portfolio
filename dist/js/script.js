@@ -9,3 +9,11 @@ hamburger.addEventListener('click', () => {
 close.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+
+
+const subtitle = document.querySelectorAll('.knowledge__skill-subtitle'),
+    lines =document.querySelectorAll('.divider-second');
+
+subtitle.forEach((item, i) => {
+    lines[i].style.width = item.innerHTML;
+});

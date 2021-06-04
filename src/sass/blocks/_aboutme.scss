@@ -1,5 +1,4 @@
 .aboutme{
-  min-height: 840px;
   padding-top: 120px;
   &__block{
     display: grid;
@@ -17,7 +16,7 @@
   &__information{
     padding-top: 6px;
     .divider{
-      margin-top: 0;
+      margin: 0;
     }
   }
  &__title{
