@@ -1,0 +1,58 @@
+.price{
+  padding-top: 90px;
+  .divider{
+    margin-top: 30px;
+  }
+  &__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 370px);
+    grid-template-rows: repeat(1, minmax(165px, auto));
+    margin-top: 60px;
+    justify-content: space-around;
+  }
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(90px, auto));
+    grid-template-rows:repeat(2, minmax(auto, 22px));
+    grid-auto-rows: 22px;
+    grid-template-areas:
+    "name cash"
+    "desc desc";
+    margin-bottom: 15px;
+    &-name{
+      position: relative;
+      padding-left: 25px;
+      &:before{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: $main-color;
+        border-radius: 100%;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    &-cash{
+      text-align: right;
+    }
+    &-desc{
+      padding-left: 25px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+    }
+  }
+}
+
+#name{
+  grid-area: name;
+}
+#cash{
+  grid-area: cash;
+}
+#desc{
+  grid-area: desc;
+}
