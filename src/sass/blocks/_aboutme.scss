@@ -11,7 +11,9 @@
   "foto skills";
   }
   &__img{
-    width: 100%
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   &__information{
     padding-top: 6px;
