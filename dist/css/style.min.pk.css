@@ -1,0 +1,12 @@
+.policy{
+    padding: 50px 100px;
+}
+p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+h1, h2{
+    text-align: center;
+}
