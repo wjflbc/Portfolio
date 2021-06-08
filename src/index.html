@@ -95,10 +95,12 @@
     <section class="aboutme">
         <div class="container">
             <div class="aboutme__block">
-                <img id="foto" src="img/foto.jpg" alt="foto" class="aboutme__img">
+                <div class="aboutme__photo">
+                    <img id="foto" src="img/foto.jpg" alt="foto">
+                </div>
                 <div id="info" class="aboutme__information">
                     <div class="title title_fz16 aboutme__title">Про мене</div>
-                    <div class="title aboutme__subtitle">Мене звати Анастасія</div>
+                    <div class="title title_fz36 aboutme__subtitle">Мене звати Анастасія</div>
                     <div class="divider"></div>
                     <div class="aboutme__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
                 </div>
@@ -158,7 +160,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="rezume__item">
+                            <div class="rezume:last-child">
                                 <div class="rezume__item-head">
                                     <div class="rezume__item-icon"><img src="icons/block3/Vector2.png" alt="icon"></div>
                                     <div class="title title_fz14">Udemy</div>
@@ -188,7 +190,7 @@
                                 <div class="rezume__item-head">
                                     <div class="rezume__item-icon"><img src="icons/block3/Graphic%20Designer-Computer-Monitor-Graphic%20Tablet-Designer.png" alt="icon"></div>
                                     <div class="title title_fz14">UI/UX Designer</div>
-                                    <div class="rezume__item-location">Squad Team | Москва (2018</div>
+                                    <div class="rezume__item-location">Squad Team | Москва (2018)</div>
                                 </div>
                                 <div class="rezume__item-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </div>
                             </div>
@@ -295,134 +297,136 @@
         </div>
     </section>
 
-    <section class="portfolio">
-        <div class="container">
-            <div class="title title_fz16 title__section-title">Портфоліо</div>
-            <div class="title title__section-subtitle">Мої роботи</div>
-            <div class="divider"></div>
-            <div class="portfolio__wrapper">
-                <a href="/uber" class="portfolio__item">
-                    <img src="img/uber.jpg" alt="uber">
-                </a>
-                <a href="/puls" class="portfolio__item">
-                    <img src="img/pulse.jpg" alt="puls">
-                </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/bread.jpg" alt="bread">
-                </a>
-                <a href="#" class="portfolio__item vertical">
-                    <img src="img/plans.jpg" alt="puls">
-                </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/ipad.jpg" alt="apple">
-                </a>
-                <a href="#" class="portfolio__item horizonal">
-                    <img src="img/mac.jpg" alt="mac">
-                </a>
-            </div>
-        </div>
-    </section>
+<!--    <section class="portfolio">-->
+<!--        <div class="container">-->
+<!--            <div class="title title_fz16 title__section-title">Портфоліо</div>-->
+<!--            <div class="title title__section-subtitle">Мої роботи</div>-->
+<!--            <div class="divider"></div>-->
+<!--            <div class="portfolio__wrapper">-->
+<!--                <a href="/uber" class="portfolio__item">-->
+<!--                    <img src="img/uber.jpg" alt="uber">-->
+<!--                </a>-->
+<!--                <a href="/puls" class="portfolio__item">-->
+<!--                    <img src="img/pulse.jpg" alt="puls">-->
+<!--                </a>-->
+<!--                <a href="#" class="portfolio__item">-->
+<!--                    <img src="img/bread.jpg" alt="bread">-->
+<!--                </a>-->
+<!--                <a href="#" class="portfolio__item vertical">-->
+<!--                    <img src="img/plans.jpg" alt="puls">-->
+<!--                </a>-->
+<!--                <a href="#" class="portfolio__item">-->
+<!--                    <img src="img/ipad.jpg" alt="apple">-->
+<!--                </a>-->
+<!--                <a href="#" class="portfolio__item horizonal">-->
+<!--                    <img src="img/mac.jpg" alt="mac">-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
-    <section class="price">
-        <div class="container">
-            <div class="title title_fz16 title__section-title">Прайс-лист</div>
-            <div class="divider"></div>
-            <div class="price__wrapper">
-                <div class="price__wrapper-contents">
-                    <div class="price__list">
-                        <div class="title title_fz14 price__list-name">Landing-page</div>
-                        <div class="title title_fz14 price__list-cash">від 1000 грн.</div>
-                        <div class="price__list-desc">Односторінковий сайт для презентації послуг / товарів / ...</div>
-                    </div>
+<!--    <section class="price">-->
+<!--        <div class="container">-->
+<!--            <div class="title title_fz16 title__section-title">Прайс-лист</div>-->
+<!--            <div class="divider"></div>-->
+<!--            <div class="price__wrapper">-->
+<!--                <div class="price__wrapper-contents">-->
+<!--                    <div class="price__list">-->
+<!--                        <div class="title title_fz14 price__list-name">Landing-page</div>-->
+<!--                        <div class="title title_fz14 price__list-cash">від 1000 грн.</div>-->
+<!--                        <div class="price__list-desc">Односторінковий сайт для презентації послуг / товарів / ...</div>-->
+<!--                    </div>-->
 
-                    <div class="price__list">
-                        <div class="title title_fz14 price__list-name">Корпоративний сайт</div>
-                        <div class="title title_fz14 price__list-cash">від 10000 грн.</div>
-                        <div class="price__list-desc">Сайт для вашого бізнесу або компанії</div>
-                    </div>
+<!--                    <div class="price__list">-->
+<!--                        <div class="title title_fz14 price__list-name">Корпоративний сайт</div>-->
+<!--                        <div class="title title_fz14 price__list-cash">від 10000 грн.</div>-->
+<!--                        <div class="price__list-desc">Сайт для вашого бізнесу або компанії</div>-->
+<!--                    </div>-->
 
-                    <div class="price__list">
-                        <div class="title title_fz14 price__list-name">Інтернет-магазин</div>
-                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>
-                        <div class="price__list-desc">Інструмент для ваших продажів в мережі</div>
-                    </div>
-                </div>
-
-
-                <div class="price__wrapper-contents">
-                    <div class="price__list">
-                        <div class="title title_fz14 price__list-name">Web-додаток</div>
-                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>
-                        <div class="price__list-desc">Додаток всередині браузера для кращого комфорту</div>
-                    </div>
-
-                    <div class="price__list">
-                        <div class="title title_fz14 price__list-name">Android/IOS Додаток</div>
-                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>
-                        <div class="price__list-desc">Додаток для смартфона будь-якої ОС</div>
-                    </div>
-
-                    <div class="price__list">
-                        <div class="title title_fz14 price__list-name">Дизайн</div>
-                        <div class="title title_fz14 price__list-cash">Індивідуально</div>
-                        <div class="price__list-desc">Створю дизайн для вашого сайту / додатка ...</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!--                    <div class="price__list">-->
+<!--                        <div class="title title_fz14 price__list-name">Інтернет-магазин</div>-->
+<!--                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>-->
+<!--                        <div class="price__list-desc">Інструмент для ваших продажів в мережі</div>-->
+<!--                    </div>-->
+<!--                </div>-->
 
 
-    <section class="contacts">
-        <div class="container">
-            <div class="contacts__wrapper">
-                <div class="contacts__photo">
-                    <img id="picture" src="img/foto.jpg" alt="foto">
-                </div>
-                <div id="words" class="contacts__information">
-                    <div class="title title_fz16 contacts__title">Контакти</div>
-                    <div class="title contacts__subtitle">Звяжіться зі мною</div>
-                    <div class="divider"></div>
-                    <div class="title title_fz14 contacts__text">Зручним для вас методом:</div>
-                    <div class="contacts__social">
-                        <a href="#" class="contacts__link">
-                            <img src="icons/block6/Facebook.png" alt="facebook">
-                        </a>
-                        <a href="#" class="contacts__link">
-                            <img src="icons/block6/Telegram.png" alt="telegram">
-                        </a>
-                        <a href="#" class="contacts__link">
-                            <img src="icons/block6/Instagram.png" alt="instagram">
-                        </a>
-                    </div>
-                    <div class="title title_fz14 contacts__text">Або залиште данні і я сама напишу Вам:</div>
+<!--                <div class="price__wrapper-contents">-->
+<!--                    <div class="price__list">-->
+<!--                        <div class="title title_fz14 price__list-name">Web-додаток</div>-->
+<!--                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>-->
+<!--                        <div class="price__list-desc">Додаток всередині браузера для кращого комфорту</div>-->
+<!--                    </div>-->
 
-                    <form action="#" class="contacts__form">
-                        <div class="contacts__input">
-                            <input required name="name" id="name" type="text">
-                            <label for="name">Ваше имя</label>
-                        </div>
-                        <div class="contacts__input">
-                            <input required name="email" id="email" type="email">
-                            <label for="email">Ваша почта</label>
-                        </div>
+<!--                    <div class="price__list">-->
+<!--                        <div class="title title_fz14 price__list-name">Android/IOS Додаток</div>-->
+<!--                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>-->
+<!--                        <div class="price__list-desc">Додаток для смартфона будь-якої ОС</div>-->
+<!--                    </div>-->
 
-                        <div class="contacts__textarea">
-                            <textarea name="text" id="text" ></textarea>
-                            <label for="text">Ваше сообщение</label>
-                        </div>
-                        <div class="contacts__triggers">
-                            <button class=" contacts__btn btn">Отправить сообщение</button>
-                            <div class="contacts__policy">
-                                <input required type="checkbox">
-                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+<!--                    <div class="price__list">-->
+<!--                        <div class="title title_fz14 price__list-name">Дизайн</div>-->
+<!--                        <div class="title title_fz14 price__list-cash">Індивідуально</div>-->
+<!--                        <div class="price__list-desc">Створю дизайн для вашого сайту / додатка ...</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+
+<!--    <section class="contacts">-->
+<!--        <div class="container">-->
+<!--            <div class="contacts__wrapper">-->
+<!--                <div class="contacts__photo">-->
+<!--                    <img id="picture" src="img/foto.jpg" alt="foto">-->
+<!--                </div>-->
+<!--                <div id="words" class="contacts__information">-->
+<!--                    <div class="title title_fz16 contacts__title">Контакти</div>-->
+<!--                    <div class="title contacts__subtitle">Звяжіться зі мною</div>-->
+<!--                    <div class="divider"></div>-->
+<!--                    <div class="title title_fz14 contacts__text">Зручним для вас методом:</div>-->
+<!--                    <div class="contacts__social">-->
+<!--                        <a href="#" class="contacts__link">-->
+<!--                            <img src="icons/block6/Facebook.png" alt="facebook">-->
+<!--                        </a>-->
+<!--                        <a href="#" class="contacts__link">-->
+<!--                            <img src="icons/block6/Telegram.png" alt="telegram">-->
+<!--                        </a>-->
+<!--                        <a href="#" class="contacts__link">-->
+<!--                            <img src="icons/block6/Instagram.png" alt="instagram">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="title title_fz14 contacts__text">Або залиште данні і я сама напишу Вам:</div>-->
+
+<!--                    <form action="#" class="contacts__form">-->
+<!--                        <div class="contacts__input">-->
+<!--                            <input required name="name" id="name" type="text">-->
+<!--                            <label for="name">Ваше имя</label>-->
+<!--                        </div>-->
+<!--                        <div class="contacts__input">-->
+<!--                            <input required name="email" id="email" type="email">-->
+<!--                            <label for="email">Ваша почта</label>-->
+<!--                        </div>-->
+
+<!--                        <div class="contacts__textarea">-->
+<!--                            <textarea name="text" id="text" ></textarea>-->
+<!--                            <label for="text">Ваше сообщение</label>-->
+<!--                        </div>-->
+<!--                        <div class="contacts__triggers">-->
+<!--                            <button class=" contacts__btn btn">Отправить сообщение</button>-->
+<!--                            <div class="contacts__policy">-->
+<!--                                <input required type="checkbox">-->
+<!--                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
