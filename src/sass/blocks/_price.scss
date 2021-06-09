@@ -13,8 +13,8 @@
   &__list{
     display: grid;
     grid-template-columns: repeat(2, minmax(90px, auto));
-    grid-template-rows:repeat(2, minmax(auto, 22px));
-    grid-auto-rows: 22px;
+    grid-template-rows:repeat(2, minmax( 22px, auto));
+    grid-auto-rows: minmax(22px, auto);
 
     margin-bottom: 15px;
     &-name{

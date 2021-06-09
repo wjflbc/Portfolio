@@ -96,15 +96,25 @@
         <div class="container">
             <div class="aboutme__block">
                 <div class="aboutme__photo">
-                    <img id="foto" src="img/foto.jpg" alt="foto">
+                    <img srcset="img/foto-min.jpg 300w,
+                                 img/foto.jpg 400w"
+                         sizes="(max-width: 576px) 280px,
+                                 (min-width: 577px) 400px"
+                    src="img/foto.jpg" alt="foto">
+
+<!--                    <picture>-->
+<!--                        <source media="(max-width: 576px)" srcset="img/foto-min.jpg">-->
+<!--                        <source media="(min-width: 577px)" srcset="img/foto.jpg ">-->
+<!--                        <img src="img/foto.jpg" alt="photo">-->
+<!--                    </picture>-->
                 </div>
-                <div id="info" class="aboutme__information">
+                <div  class="aboutme__information">
                     <div class="title title_fz16 aboutme__title">Про мене</div>
                     <div class="title title_fz36 aboutme__subtitle">Мене звати Анастасія</div>
                     <div class="divider"></div>
                     <div class="aboutme__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
                 </div>
-                <div id="skills" class="aboutme__skills">
+                <div  class="aboutme__skills">
                     <div class="aboutme__skills-item">
                         <div class="aboutme__skills-icon">
                             <img src="icons/block2/Group1.png" alt="icon">
@@ -297,82 +307,82 @@
         </div>
     </section>
 
-<!--    <section class="portfolio">-->
-<!--        <div class="container">-->
-<!--            <div class="title title_fz16 title__section-title">Портфоліо</div>-->
-<!--            <div class="title title__section-subtitle">Мої роботи</div>-->
-<!--            <div class="divider"></div>-->
-<!--            <div class="portfolio__wrapper">-->
-<!--                <a href="/uber" class="portfolio__item">-->
-<!--                    <img src="img/uber.jpg" alt="uber">-->
-<!--                </a>-->
-<!--                <a href="/puls" class="portfolio__item">-->
-<!--                    <img src="img/pulse.jpg" alt="puls">-->
-<!--                </a>-->
-<!--                <a href="#" class="portfolio__item">-->
-<!--                    <img src="img/bread.jpg" alt="bread">-->
-<!--                </a>-->
-<!--                <a href="#" class="portfolio__item vertical">-->
-<!--                    <img src="img/plans.jpg" alt="puls">-->
-<!--                </a>-->
-<!--                <a href="#" class="portfolio__item">-->
-<!--                    <img src="img/ipad.jpg" alt="apple">-->
-<!--                </a>-->
-<!--                <a href="#" class="portfolio__item horizonal">-->
-<!--                    <img src="img/mac.jpg" alt="mac">-->
-<!--                </a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+    <section class="portfolio">
+        <div class="container">
+            <div class="title title_fz16 title__section-title">Портфоліо</div>
+            <div class="title title__section-subtitle">Мої роботи</div>
+            <div class="divider"></div>
+            <div class="portfolio__wrapper">
+                <a href="/uber" class="portfolio__item">
+                    <img src="img/uber.jpg" alt="uber">
+                </a>
+                <a href="/puls" class="portfolio__item">
+                    <img src="img/pulse.jpg" alt="puls">
+                </a>
+                <a href="#" class="portfolio__item">
+                    <img src="img/bread.jpg" alt="bread">
+                </a>
+                <a href="#" class="portfolio__item vertical">
+                    <img src="img/plans.jpg" alt="puls">
+                </a>
+                <a href="#" class="portfolio__item">
+                    <img src="img/ipad.jpg" alt="apple">
+                </a>
+                <a href="#" class="portfolio__item horizonal">
+                    <img src="img/mac.jpg" alt="mac">
+                </a>
+            </div>
+        </div>
+    </section>
 
-<!--    <section class="price">-->
-<!--        <div class="container">-->
-<!--            <div class="title title_fz16 title__section-title">Прайс-лист</div>-->
-<!--            <div class="divider"></div>-->
-<!--            <div class="price__wrapper">-->
-<!--                <div class="price__wrapper-contents">-->
-<!--                    <div class="price__list">-->
-<!--                        <div class="title title_fz14 price__list-name">Landing-page</div>-->
-<!--                        <div class="title title_fz14 price__list-cash">від 1000 грн.</div>-->
-<!--                        <div class="price__list-desc">Односторінковий сайт для презентації послуг / товарів / ...</div>-->
-<!--                    </div>-->
+    <section class="price">
+        <div class="container">
+            <div class="title title_fz16 title__section-title">Прайс-лист</div>
+            <div class="divider"></div>
+            <div class="price__wrapper">
+                <div class="price__wrapper-contents">
+                    <div class="price__list">
+                        <div class="title title_fz14 price__list-name">Landing-page</div>
+                        <div class="title title_fz14 price__list-cash">від 1000 грн.</div>
+                        <div class="price__list-desc">Односторінковий сайт для презентації послуг / товарів / ...</div>
+                    </div>
 
-<!--                    <div class="price__list">-->
-<!--                        <div class="title title_fz14 price__list-name">Корпоративний сайт</div>-->
-<!--                        <div class="title title_fz14 price__list-cash">від 10000 грн.</div>-->
-<!--                        <div class="price__list-desc">Сайт для вашого бізнесу або компанії</div>-->
-<!--                    </div>-->
+                    <div class="price__list">
+                        <div class="title title_fz14 price__list-name">Корпоративний сайт</div>
+                        <div class="title title_fz14 price__list-cash">від 10000 грн.</div>
+                        <div class="price__list-desc">Сайт для вашого бізнесу або компанії</div>
+                    </div>
 
-<!--                    <div class="price__list">-->
-<!--                        <div class="title title_fz14 price__list-name">Інтернет-магазин</div>-->
-<!--                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>-->
-<!--                        <div class="price__list-desc">Інструмент для ваших продажів в мережі</div>-->
-<!--                    </div>-->
-<!--                </div>-->
+                    <div class="price__list">
+                        <div class="title title_fz14 price__list-name">Інтернет-магазин</div>
+                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>
+                        <div class="price__list-desc">Інструмент для ваших продажів в мережі</div>
+                    </div>
+                </div>
 
 
-<!--                <div class="price__wrapper-contents">-->
-<!--                    <div class="price__list">-->
-<!--                        <div class="title title_fz14 price__list-name">Web-додаток</div>-->
-<!--                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>-->
-<!--                        <div class="price__list-desc">Додаток всередині браузера для кращого комфорту</div>-->
-<!--                    </div>-->
+                <div class="price__wrapper-contents">
+                    <div class="price__list">
+                        <div class="title title_fz14 price__list-name">Web-додаток</div>
+                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>
+                        <div class="price__list-desc">Додаток всередині браузера для кращого комфорту</div>
+                    </div>
 
-<!--                    <div class="price__list">-->
-<!--                        <div class="title title_fz14 price__list-name">Android/IOS Додаток</div>-->
-<!--                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>-->
-<!--                        <div class="price__list-desc">Додаток для смартфона будь-якої ОС</div>-->
-<!--                    </div>-->
+                    <div class="price__list">
+                        <div class="title title_fz14 price__list-name">Android/IOS Додаток</div>
+                        <div class="title title_fz14 price__list-cash">від 100000 грн.</div>
+                        <div class="price__list-desc">Додаток для смартфона будь-якої ОС</div>
+                    </div>
 
-<!--                    <div class="price__list">-->
-<!--                        <div class="title title_fz14 price__list-name">Дизайн</div>-->
-<!--                        <div class="title title_fz14 price__list-cash">Індивідуально</div>-->
-<!--                        <div class="price__list-desc">Створю дизайн для вашого сайту / додатка ...</div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+                    <div class="price__list">
+                        <div class="title title_fz14 price__list-name">Дизайн</div>
+                        <div class="title title_fz14 price__list-cash">Індивідуально</div>
+                        <div class="price__list-desc">Створю дизайн для вашого сайту / додатка ...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 <!--    <section class="contacts">-->
